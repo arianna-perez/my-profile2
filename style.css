@@ -1,0 +1,97 @@
+/* Reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3); /* light pink shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 182, 193, 0.4);
+}
+
+/* Headings */
+h1, h2 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+/* Profile image */
+.profile-img {
+    width: 120px; /* smaller profile picture */
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px 0;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn-pink {
+    background-color: #ffb6c1;
+    color: #000000;
+}
+
+.btn-pink:hover {
+    background-color: #ff99aa;
+}
+
+/* Social icons */
+.social-list {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding-left: 0;
+}
+
+.social-list li a {
+    font-size: 1.5rem;
+    color: hotpink;
+    transition: color 0.3s ease;
+}
+
+.social-list li a.blue:hover {
+    color: #1e90ff;
+}
+
+.social-list li a.blue:hover {
+    color: #1e90ff;
+}
